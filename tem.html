@@ -1,0 +1,741 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS-Developers Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="mane.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-robot"></i> TSV
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                           <i class="fas fa-home"></i> Home</a>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="home.html"><i class="fas fa-info-circle"></i> Home</a></li>
+                            <li><a class="dropdown-item" href="mission.html"><i class="fas fa-bullseye"></i> Our Mission</a></li>
+                            <li><a class="dropdown-item" href="history.html"><i class="fas fa-history"></i> History</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-book"></i> Courses
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="allcourses.html"><i class="fab fa-laravel"></i> All Development</a></li>
+                            <li><a class="dropdown-item" href="javascript.html"><i class="fab fa-js-square"></i> JavaScript Mastery</a></li>
+                            <li><a class="dropdown-item" href="react.html"><i class="fab fa-react"></i> React JS</a></li>
+                            <li><a class="dropdown-item" href="vue.html"><i class="fab fa-vuejs"></i> Vue JS</a></li>
+                            <li><a class="dropdown-item" href="database.html"><i class="fas fa-database"></i> MySQL & MongoDB</a></li>
+                            <li><a class="dropdown-item" href="nodejs.html"><i class="fab fa-node-js"></i> Node.js</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-handshake"></i> Affiliates
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="affiliates.html"><i class="fas fa-building"></i> Affiliates Institutes</a></li>
+                            <li><a class="dropdown-item" href="education-partners.html"><i class="fas fa-graduation-cap"></i> Educational Partners</a></li>
+                            <li><a class="dropdown-item" href="certification.html"><i class="fas fa-award"></i> Certification</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-users"></i> Team
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="tem.html"><i class="fas fa-user-tie"></i> Tem Developers</a></li>
+                            <li><a class="dropdown-item" href="students.html"><i class="fas fa-user-graduate"></i> Students</a></li>
+                            <li><a class="dropdown-item" href="alumni.html"><i class="fas fa-user-friends"></i> Alumni</a></li>
+                            <li><a class="dropdown-item" href="mentors.html"><i class="fas fa-chalkboard-teacher"></i> Mentors</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-star"></i> Highlights
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="achievements.html"><i class="fas fa-trophy"></i> Achievements</a></li>
+                            <li><a class="dropdown-item" href="events.html"><i class="fas fa-calendar-alt"></i> Events</a></li>
+                            <li><a class="dropdown-item" href="news.html"><i class="fas fa-newspaper"></i> News</a></li>
+                            <li><a class="dropdown-item" href="projects.html"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-envelope"></i> Contact
+                        </a>
+                        <ul class="dropdown-menu">
+                             <li><a class="dropdown-item" href="contact.html"><i class="fas fa-phone"></i>Contact</a></li>
+                            <li><a class="dropdown-item" href="mailto:info@tsv.com"><i class="fas fa-envelope-open"></i> Email</a></li>
+                            <li><a class="dropdown-item" href="location.html"><i class="fas fa-map-marker-alt"></i> Location</a></li>
+                            <li><a class="dropdown-item" href="chat.html"><i class="fas fa-comments"></i> Live Chat</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            <i class="fas fa-user-plus"></i> Register
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="login.html"><i class="fas fa-sign-in-alt"></i> Login</a></li>
+                            <li><a class="dropdown-item" href="signup.html"><i class="fas fa-user-edit"></i> Sign Up</a></li>
+                            <li><a class="dropdown-item" href="forgot-password.html"><i class="fas fa-key"></i> Forgot Password</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="account-settings.html"><i class="fas fa-user-cog"></i> Account Settings</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="team-section">
+        <div class="container">
+            <div class="section-heading">
+                <h1 class="section-title">TS-DEVELOPERS TEAM</h1>
+                <p class="section-description">
+                    "Our TS-Developers Team brings together experts from diverse fields, including Executive & Management, Teachers, Administration & Support, Finance & Accounting, Quality Assurance & Testing, Legal & Compliance, and Operations & Logistics. With a shared commitment to excellence, we ensure innovation, efficiency, and top-quality service in every project."
+                </p>
+            </div>
+
+            <!-- Team Grid for Desktop/Tablet -->
+            <div class="team-grid row">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card fade-up delay-1" data-member="basit">
+                        <div class="profile-container">
+                            <img src="pic/cod (1).jpg" alt="Abdul Basit" class="profile-image">
+                        </div>
+                        <div class="role-title">Founder & CEO</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Abdul Basit" class="small-avatar">
+                            <h3 class="member-name">Abdul Basit</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BS in A&C</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Developer</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">9+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card fade-up delay-2" data-member="yasir">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Yasir Javaid" class="profile-image">
+                        </div>
+                        <div class="role-title">Technology Advisor</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Yasir Javaid" class="small-avatar">
+                            <h3 class="member-name">Yasir Javaid</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">Not Available</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">PhD(cont)</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">12+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card fade-up delay-3" data-member="saood">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Muhammad Saood" class="profile-image">
+                        </div>
+                        <div class="role-title">UI/UX Design Instructor</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Muhammad Saood" class="small-avatar">
+                            <h3 class="member-name">Muhammad Saood</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">Inter in DAE ICT</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Design & Motion Wizard</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">4+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card fade-up delay-4" data-member="hamza">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Hamza Iqbal" class="profile-image">
+                        </div>
+                        <div class="role-title">Frontend Developer</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Hamza Iqbal" class="small-avatar">
+                            <h3 class="member-name">Hamza Iqbal</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BS Computer Science</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">React & UI Engineering</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">3+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card fade-up delay-5" data-member="ali">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ali Raza" class="profile-image">
+                        </div>
+                        <div class="role-title">Backend Specialist</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ali Raza" class="small-avatar">
+                            <h3 class="member-name">Ali Raza</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BS Software Engineering</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Node, Databases & APIs</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">5+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="team-card fade-up delay-6" data-member="ayesha">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ayesha Khan" class="profile-image">
+                        </div>
+                        <div class="role-title">Project Coordinator</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ayesha Khan" class="small-avatar">
+                            <h3 class="member-name">Ayesha Khan</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BBA</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Team Coordination & Planning</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">2+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Slider for Mobile -->
+            <div class="team-slider">
+                <!-- Card 1 -->
+                <div class="slider-card">
+                    <div class="team-card" data-member="basit">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Abdul Basit" class="profile-image">
+                        </div>
+                        <div class="role-title">Founder & CEO</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Abdul Basit" class="small-avatar">
+                            <h3 class="member-name">Abdul Basit</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BS in A&C</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Developer</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">9+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="slider-card">
+                    <div class="team-card" data-member="yasir">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Yasir Javaid" class="profile-image">
+                        </div>
+                        <div class="role-title">Technology Advisor</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Yasir Javaid" class="small-avatar">
+                            <h3 class="member-name">Yasir Javaid</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">Not Available</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">PhD(cont)</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">12+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="slider-card">
+                    <div class="team-card" data-member="saood">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Muhammad Saood" class="profile-image">
+                        </div>
+                        <div class="role-title">UI/UX Design Instructor</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Muhammad Saood" class="small-avatar">
+                            <h3 class="member-name">Muhammad Saood</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">Inter in DAE ICT</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Design & Motion Wizard</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">4+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="slider-card">
+                    <div class="team-card" data-member="hamza">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Hamza Iqbal" class="profile-image">
+                        </div>
+                        <div class="role-title">Frontend Developer</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Hamza Iqbal" class="small-avatar">
+                            <h3 class="member-name">Hamza Iqbal</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BS Computer Science</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">React & UI Engineering</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">3+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="slider-card">
+                    <div class="team-card" data-member="ali">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ali Raza" class="profile-image">
+                        </div>
+                        <div class="role-title">Backend Specialist</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ali Raza" class="small-avatar">
+                            <h3 class="member-name">Ali Raza</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BS Software Engineering</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Node, Databases & APIs</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">5+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="slider-card">
+                    <div class="team-card" data-member="ayesha">
+                        <div class="profile-container">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ayesha Khan" class="profile-image">
+                        </div>
+                        <div class="role-title">Project Coordinator</div>
+                        <div class="name-container">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=200&q=80" alt="Ayesha Khan" class="small-avatar">
+                            <h3 class="member-name">Ayesha Khan</h3>
+                        </div>
+                        <div class="info-columns">
+                            <div class="info-item">
+                                <div class="field-title">Degree</div>
+                                <div class="field-value">BBA</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Specialization</div>
+                                <div class="field-value">Team Coordination & Planning</div>
+                            </div>
+                            <div class="info-item">
+                                <div class="field-title">Experience</div>
+                                <div class="field-value">2+ Years</div>
+                            </div>
+                        </div>
+                        <div class="view-btn-container">
+                            <button class="view-btn">View Projects</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalMemberName">Abdul Basit</h2>
+                <p class="modal-subtitle" id="modalMemberRole">Founder & CEO</p>
+            </div>
+            <div class="projects-grid" id="projectsContainer">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Team member projects data
+        const teamProjects = {
+            basit: {
+                name: "Abdul Basit",
+                role: "Founder & CEO",
+                projects: [
+                    {
+                        name: "E-Commerce Platform",
+                        description: "A full-stack e-commerce solution with advanced features like AI-powered recommendations, real-time inventory management, and secure payment processing.",
+                        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["React", "Node.js", "MongoDB", "Stripe API"],
+                        link: "#"
+                    },
+                    {
+                        name: "Learning Management System",
+                        description: "A comprehensive LMS with course creation tools, student progress tracking, and interactive learning modules for educational institutions.",
+                        image: "https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Vue.js", "Express", "MySQL", "Socket.io"],
+                        link: "#"
+                    },
+                    {
+                        name: "Financial Analytics Dashboard",
+                        description: "A real-time financial dashboard with data visualization, predictive analytics, and automated reporting for financial institutions.",
+                        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Angular", "Python", "D3.js", "Firebase"],
+                        link: "#"
+                    }
+                ]
+            },
+            yasir: {
+                name: "Yasir Javaid",
+                role: "Technology Advisor",
+                projects: [
+                    {
+                        name: "AI-Powered Chatbot",
+                        description: "An intelligent chatbot with natural language processing capabilities for customer service automation and support.",
+                        image: "https://images.unsplash.com/photo-1531746790731-6c087fecd65a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Python", "TensorFlow", "NLP", "AWS"],
+                        link: "#"
+                    },
+                    {
+                        name: "IoT Home Automation",
+                        description: "A smart home system with IoT devices, mobile app control, and energy optimization algorithms for residential use.",
+                        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["IoT", "React Native", "Node.js", "MQTT"],
+                        link: "#"
+                    }
+                ]
+            },
+            saood: {
+                name: "Muhammad Saood",
+                role: "UI/UX Design Instructor",
+                projects: [
+                    {
+                        name: "Design System Framework",
+                        description: "A comprehensive design system with reusable components, style guides, and prototyping tools for consistent UI development.",
+                        image: "https://images.unsplash.com/photo-1561070791-2526d30994b5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Figma", "Adobe XD", "Sketch", "InVision"],
+                        link: "#"
+                    },
+                    {
+                        name: "Interactive Portfolio Platform",
+                        description: "A visually stunning portfolio platform with animations, micro-interactions, and responsive design for creative professionals.",
+                        image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["HTML/CSS", "JavaScript", "GSAP", "Three.js"],
+                        link: "#"
+                    }
+                ]
+            },
+            hamza: {
+                name: "Hamza Iqbal",
+                role: "Frontend Developer",
+                projects: [
+                    {
+                        name: "React Component Library",
+                        description: "A collection of reusable React components with comprehensive documentation and accessibility features.",
+                        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["React", "TypeScript", "Storybook", "Jest"],
+                        link: "#"
+                    },
+                    {
+                        name: "Progressive Web App",
+                        description: "A fast, reliable PWA with offline functionality, push notifications, and app-like user experience.",
+                        image: "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["React", "Service Workers", "IndexedDB", "Web App Manifest"],
+                        link: "#"
+                    }
+                ]
+            },
+            ali: {
+                name: "Ali Raza",
+                role: "Backend Specialist",
+                projects: [
+                    {
+                        name: "RESTful API Framework",
+                        description: "A scalable REST API with authentication, rate limiting, and comprehensive documentation for web and mobile applications.",
+                        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Node.js", "Express", "JWT", "Swagger"],
+                        link: "#"
+                    },
+                    {
+                        name: "Real-time Chat Application",
+                        description: "A real-time messaging platform with group chats, file sharing, and message encryption for secure communication.",
+                        image: "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Socket.io", "MongoDB", "Redis", "Docker"],
+                        link: "#"
+                    }
+                ]
+            },
+            ayesha: {
+                name: "Ayesha Khan",
+                role: "Project Coordinator",
+                projects: [
+                    {
+                        name: "Project Management Dashboard",
+                        description: "A comprehensive project tracking system with task management, team collaboration, and progress reporting features.",
+                        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["Vue.js", "Node.js", "MySQL", "Chart.js"],
+                        link: "#"
+                    },
+                    {
+                        name: "Team Collaboration Platform",
+                        description: "A platform for team communication, file sharing, and workflow management to enhance productivity and coordination.",
+                        image: "https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80",
+                        technologies: ["React", "Firebase", "Material-UI", "WebRTC"],
+                        link: "#"
+                    }
+                ]
+            }
+        };
+
+        // DOM elements
+        const projectModal = document.getElementById('projectModal');
+        const closeModal = document.getElementById('closeModal');
+        const modalMemberName = document.getElementById('modalMemberName');
+        const modalMemberRole = document.getElementById('modalMemberRole');
+        const projectsContainer = document.getElementById('projectsContainer');
+        const teamCards = document.querySelectorAll('.team-card');
+
+        // Open modal with team member's projects
+        function openProjectModal(memberId) {
+            const memberData = teamProjects[memberId];
+            if (!memberData) return;
+
+            modalMemberName.textContent = memberData.name;
+            modalMemberRole.textContent = memberData.role;
+
+            // Clear previous projects
+            projectsContainer.innerHTML = '';
+
+            // Add projects to modal
+            memberData.projects.forEach(project => {
+                const projectCard = document.createElement('div');
+                projectCard.className = 'project-card';
+                projectCard.innerHTML = `
+                    <img src="${project.image}" alt="${project.name}" class="project-image">
+                    <div class="project-info">
+                        <h3 class="project-name">${project.name}</h3>
+                        <p class="project-description">${project.description}</p>
+                        <div class="project-tech">
+                            ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                        </div>
+                        <a href="${project.link}" class="project-link" target="_blank">View Project</a>
+                    </div>
+                `;
+                projectsContainer.appendChild(projectCard);
+            });
+
+            // Show modal
+            projectModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        // Close modal
+        function closeProjectModal() {
+            projectModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Event listeners
+        teamCards.forEach(card => {
+            card.addEventListener('click', function() {
+                const memberId = this.getAttribute('data-member');
+                openProjectModal(memberId);
+            });
+        });
+
+        closeModal.addEventListener('click', closeProjectModal);
+        projectModal.addEventListener('click', function(e) {
+            if (e.target === projectModal) {
+                closeProjectModal();
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && projectModal.classList.contains('active')) {
+                closeProjectModal();
+            }
+        });
+
+        // Simple animation on scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.team-card');
+
+            // Add scroll event listener for animation
+            window.addEventListener('scroll', function() {
+                cards.forEach(card => {
+                    const cardTop = card.getBoundingClientRect().top;
+                    const windowHeight = window.innerHeight;
+
+                    if (cardTop < windowHeight - 100) {
+                        card.classList.add('fade-up');
+                    }
+                });
+            });
+
+            // Trigger initial check
+            window.dispatchEvent(new Event('scroll'));
+        });
+    </script>
+</body>
+</html>
